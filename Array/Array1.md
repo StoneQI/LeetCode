@@ -1,10 +1,17 @@
+<!--
+ * @Author: stone
+ * @Date: 2019-08-23 09:25:21
+ * @LastEditTime: 2019-08-23 09:26:43
+ * @LastEditors: stone
+ * @Description: 
+ -->
 11. Container With Most Water
 
     Given *n* non-negative integers *a1*, *a2*, ..., *an* , where each represents a point at coordinate (*i*, *ai*). *n* vertical lines are drawn such that the two endpoints of line *i* is at (*i*, *ai*) and (*i*, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
     **Note:** You may not slant the container and *n* is at least 2.
 
-    ![1566035073852](D:\OneDrive - my.swjtu.edu.cn\03-leetcode\Array\assets\1566035073852.png)
+    ![1566035073852](assets\1566035073852.png)
 
 The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 
@@ -55,13 +62,13 @@ public:
 
 这种方法背后的直觉是，线之间形成的区域总是受短线高度的限制。此外，越远的线，获得的区域就越多。 我们取两个指针，一个在开头，一个在构成行长度的数组的末尾。因此，我们维护一个变量maxarea最大区域，以存储到现在获得的最大区域。在每一步中，我们找出它们之间形成的区域，更新 maxarea，并将指向较短的线的指针向另一端移动一个步骤。
 
-![11_Container_Water](D:\OneDrive - my.swjtu.edu.cn\03-leetcode\Array\assets\11_Container_Water.gif)
+![11_Container_Water](assets\11_Container_Water.gif)
 
 
 
 
 
-15. 3Sum
+1.  3Sum
 
 Given an array `nums` of *n* integers, are there elements *a*, *b*, *c* in `nums` such that *a* + *b* + *c* = 0? Find all unique triplets in the array which gives the sum of zero.
 

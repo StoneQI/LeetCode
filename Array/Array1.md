@@ -1,7 +1,7 @@
 <!--
  * @Author: stone
  * @Date: 2019-08-23 09:25:21
- * @LastEditTime: 2019-08-23 09:26:43
+ * @LastEditTime: 2019-08-23 09:33:53
  * @LastEditors: stone
  * @Description: 
  -->
@@ -11,7 +11,7 @@
 
     **Note:** You may not slant the container and *n* is at least 2.
 
-    ![1566035073852](assets\1566035073852.png)
+    ![1566035073852](assets/1566035073852.png)
 
 The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 

@@ -55,7 +55,7 @@ public:
 
 这种方法背后的直觉是，线之间形成的区域总是受短线高度的限制。此外，越远的线，获得的区域就越多。 我们取两个指针，一个在开头，一个在构成行长度的数组的末尾。因此，我们维护一个变量maxarea最大区域，以存储到现在获得的最大区域。在每一步中，我们找出它们之间形成的区域，更新 maxarea，并将指向较短的线的指针向另一端移动一个步骤。
 
-![11_Container_Water](assets\11_Container_Water.gif)
+![11_Container_Water](assets/11_Container_Water.gif)
 
 ```java
 public class Solution {

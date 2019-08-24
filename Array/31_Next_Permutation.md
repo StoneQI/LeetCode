@@ -17,7 +17,7 @@ Output:
 
 **方法一**：最经典的方法。采用递归的思想解决，先输出所有以A开头的排列，然后输出以B开头的排列，接着输出…，最后输出以N开头的排列。以A开头的排列中，第一位是A，后面是B~N的排列。以AB开头的排列中，第一位是A，第二位是B，后面是C~N的排列……如此递归，生成的是按照字典序排列的全排列。
 
-![161756_NbzE_2911530](assets\161756_NbzE_2911530.gif)
+![161756_NbzE_2911530](assets/161756_NbzE_2911530.gif)
 
 ```cpp
 private static void core(int[] array) {
@@ -105,7 +105,7 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 **我的解法**：8ms,8.5MB ,时间复杂度：$\ O(n)$ ，空间复杂度：$\ O(1)$。使用字典序的方法查找下一个序列
 
-![31_Next_Permutation](assets\31_Next_Permutation.gif)
+![31_Next_Permutation](assets/31_Next_Permutation.gif)
 
 ```Cpp
 class Solution {
